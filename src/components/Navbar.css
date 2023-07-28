@@ -1,0 +1,30 @@
+#app-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 80px;
+}
+  
+#app-nav a {
+    color: var(--main-dark);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+#homeButton {
+    margin-left: 32px;
+}
+
+#userButtons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+    gap: 20px;
+    margin-right: 32px;
+}
+
+#leaderBoardButton, #profileButton {
+    display: none;
+}
