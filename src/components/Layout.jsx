@@ -7,7 +7,9 @@ const Layout = () => {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <div className="page-wrapper">
+        <Outlet />
+      </div>
       <div className="background-img"></div>
     </>
   )

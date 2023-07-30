@@ -5,8 +5,8 @@ import './PlayButtons.css'
 const PlayButtons = () => {
   return (
     <div id='playButtons'>
-        <Link to='/play/multiplayer'><button id="multiplayerButton">I have friends to play with</button></Link>
-        <Link to='/play/computer'><button id="computerButton">Play alone</button></Link>
+        <Link to='/play/online' id="multiplayerButton">I have friends to play with</Link>
+        <Link to='/play/computer' id="computerButton">Play alone</Link>
     </div>
   )
 }

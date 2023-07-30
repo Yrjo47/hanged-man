@@ -1,0 +1,37 @@
+.form {
+    max-width: 80vw;
+    width: 600px;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 32px;
+    background-color: var(--main-light);
+    border: 2px solid var(--main-dark);
+    border-radius: 10px;
+}
+
+.form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    padding: 0px 0.25rem;
+    font: inherit;
+    background-color: var(--main-light);
+    border: 2px solid var(--main-dark);
+    border-radius: 4px;
+}
+
+.form button {
+    min-width: 50%;
+    align-self: center;
+    margin-top: 20px;
+    color: var(--main-light);
+    background-color: var(--main-dark);
+    font: inherit;
+    font-weight: 500;
+    padding: 0.25rem;
+}

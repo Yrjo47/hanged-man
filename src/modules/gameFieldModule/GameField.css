@@ -1,0 +1,50 @@
+.field-container {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 0 10vw;
+}
+
+.secret-word {
+    font-size: calc(3vw + 24px);
+}
+
+.used-letters {
+    font-size: calc(2vw + 18px);
+    align-self: flex-start;
+}
+
+.letter-input {
+    width: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 1.5rem;
+    background-color: var(--main-light);
+    border: 2px solid var(--main-dark);
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.guess-section {
+    display: flex;
+    gap: 20px;
+}
+
+.guess-section .guess-btn {
+    background-color: var(--main-light);
+    border: 2px solid var(--main-dark);
+    border-radius: 4px;
+    padding: 0px 20px
+}
+
+.looseScreen {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: var(--main-light);
+}
+

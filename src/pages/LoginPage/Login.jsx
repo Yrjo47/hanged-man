@@ -1,8 +1,19 @@
 import React from 'react'
+import RegForm from '../../components/RegForm'
 
 const Login = () => {
+
+  const onSubmit = ({username, password}) => {
+    console.log({
+      'username': username,
+      'password': password
+    })
+  }
+
   return (
-    <div>Login</div>
+    <>
+      <RegForm isLoginForm={true} onSubmit={onSubmit} />
+    </>
   )
 }
 

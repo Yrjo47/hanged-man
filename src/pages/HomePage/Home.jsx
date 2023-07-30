@@ -4,9 +4,9 @@ import PlayButtons from '../../components/PlayButtons'
 
 const Home = () => {
   return (
-      <div id='homeContent'>
-        <PlayButtons />
-      </div>
+    <>
+      <PlayButtons />
+    </>
   )
 }
 

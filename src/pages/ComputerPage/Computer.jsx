@@ -1,8 +1,11 @@
 import React from 'react'
+import GameField from '../../modules/gameFieldModule/GameField'
 
 const Computer = () => {
   return (
-    <div>Computer</div>
+    <>
+      <GameField />
+    </>
   )
 }
 

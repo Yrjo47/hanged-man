@@ -8,10 +8,12 @@
     padding: 40px;
 }
 
-#playButtons button {
+#playButtons a {
     font-size: 1rem;
     padding: 10px 20px;
     background: none;
     border: 2px solid var(--main-dark);
     border-radius: 10px;
+    align-content: center;
+    text-align: center;
 }

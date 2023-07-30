@@ -7,9 +7,7 @@
 }
   
 #app-nav a {
-    color: var(--main-dark);
     font-size: 1rem;
-    text-decoration: none;
 }
 
 #homeButton {

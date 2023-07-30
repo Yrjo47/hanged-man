@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Multiplayer = () => {
+const Online = () => {
   return (
     <div>Multiplayer</div>
   )
 }
 
-export default Multiplayer
+export default Online

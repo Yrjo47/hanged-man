@@ -6,4 +6,5 @@
     height: 120px;
     background-color: hsl(0, 0%, 10%);
     z-index: -1;
+    display: none;
 }
