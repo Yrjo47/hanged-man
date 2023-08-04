@@ -37,6 +37,7 @@ const handleKeyDown = (e) => {
         Guess()
     }
 }
+
   return (
     <div className='field-container'>
       <h2 style={(guessedWrong !== 5) ? {'display': 'none'} : {}} className="looseScreen">
@@ -47,7 +48,7 @@ const handleKeyDown = (e) => {
       })}</h2>
       <h3 className='secret-word'>Word to guess: <br/>{secretWord}</h3>
       <div className='guess-section'>
-        <input id='guessInput' className='letter-input' type="text" placeholder='E' maxLength={1}  onKeyDown={handleKeyDown} onChange={(e) => {setLetter(e.target.value.toUpperCase())}}/>
+        <input id='guessInput' className='letter-input' type="text" placeholder='E' autocomplete="off" maxLength={1}  onKeyDown={handleKeyDown} onChange={(e) => {setLetter(e.target.value.toUpperCase())}}/>
         <button className='guess-btn' onClick={Guess}>Guess</button>
       </div>
     </div>
